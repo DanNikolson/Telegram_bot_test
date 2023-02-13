@@ -1,0 +1,21 @@
+{
+    "name": "dannikolson/telegram_bot_test",
+    "description": "Telegram bot client",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dannikolson\\TelegramBotTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dan",
+            "email": "Kuznetsov556677@yandex.ru"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^6.2",
+        "symfony/http-foundation": "^6.2",
+        "symfony/dependency-injection": "^6.2"
+    }
+}
